@@ -111,7 +111,7 @@
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
 
 [palette]
-bg = "#1e1e1e"
+bg = "#222222"
 
 steel = "#8bafc8"
 slate = "#7da0b8"
