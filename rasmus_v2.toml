@@ -1,0 +1,132 @@
+# syntax
+"attribute" = "steel"
+"comment" = { fg = "stone05", modifiers = ["italic"] }
+"constant" = "stone07"
+"constant.builtin" = "steel"
+"constant.character" = "amber"
+"constant.character.escape" = "special"
+"constant.numeric" = "rose"
+"constructor" = "steel"
+"function" = "amber"
+"function.builtin" = "steel"
+"function.macro" = "steel"
+"function.method" = "amber"
+"keyword" = "steel"
+"keyword.control" = { fg = "steel" }
+"keyword.directive" = "rose"
+"label" = "amber"
+"module" = "steel"
+"namespace" = { fg = "steel", modifiers = ["italic"] }
+"operator" = "stone06"
+"punctuation" = "stone06"
+"punctuation.delimiter" = "stone06"
+"special" = "amber"
+"string" = "sage"
+"string.regexp" = "amber"
+"string.special" = "sage"
+"tag" = "amber"
+"tag.attribute" = "steel"
+"type" = "stone07"
+"type.builtin" = "rose"
+"type.enum.variant" = "rose"
+"variable" = "stone07"
+"variable.builtin" = "steel"
+"variable.other.member" = "slate"
+"variable.parameter" = { fg = "stone07", modifiers = ["italic"] }
+
+# ui
+"ui.background" = { bg = "bg" }
+"ui.background.separator" = { fg = "stone02" }
+"ui.bufferline" = { fg = "stone05" }
+"ui.bufferline.active" = { fg = "stone08", modifiers = ["bold"] }
+"ui.cursor" = { fg = "bg", bg = "stone06" }
+"ui.cursor.match" = { bg = "stone03" }
+"ui.cursor.primary" = { fg = "bg", bg = "stone07" }
+"ui.cursorcolumn.primary" = { bg = "stone01" }
+"ui.cursorcolumn.secondary" = { bg = "stone01" }
+"ui.cursorline.primary" = { bg = "stone01" }
+"ui.cursorline.secondary" = { bg = "stone01" }
+"ui.debug.active" = { fg = "amber" }
+"ui.debug.breakpoint" = { fg = "rose" }
+"ui.gutter" = {}
+"ui.gutter.selected" = { bg = "stone01" }
+"ui.help" = { fg = "stone06" }
+"ui.highlight" = { bg = "stone03" }
+"ui.highlight.frameline" = { bg = "stone03" }
+"ui.linenr" = { fg = "stone04" }
+"ui.linenr.selected" = { fg = "stone06" }
+"ui.menu" = { fg = "stone07", bg = "stone01" }
+"ui.menu.scroll" = { fg = "steel" }
+"ui.menu.selected" = { fg = "stone08", bg = "stone03" }
+"ui.picker.header" = { fg = "stone05" }
+"ui.picker.header.column" = { fg = "stone06" }
+"ui.picker.header.column.active" = { fg = "stone08", bg = "stone02", modifiers = ["bold"] }
+"ui.popup" = { bg = "stone01" }
+"ui.popup.info" = { fg = "steel" }
+"ui.selection" = { bg = "stone02" }
+"ui.selection.primary" = { bg = "stone03" }
+"ui.statusline" = { fg = "stone06", bg = "stone01" }
+"ui.statusline.inactive" = { fg = "stone05", bg = "stone01" }
+"ui.statusline.insert" = { fg = "bg", bg = "sage", modifiers = ["bold"] }
+"ui.statusline.normal" = { fg = "bg", bg = "stone06", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "bg", bg = "rose", modifiers = ["bold"] }
+"ui.statusline.separator" = { fg = "stone02" }
+"ui.text" = { fg = "stone07" }
+"ui.text.directory" = { fg = "steel" }
+"ui.text.focus" = { fg = "stone08", bg = "stone02", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "stone05" }
+"ui.text.info" = { fg = "stone07" }
+"ui.virtual.indent-guide" = { fg = "stone03" }
+"ui.virtual.inlay-hint" = { fg = "stone05", modifiers = ["italic"] }
+"ui.virtual.jump-label" = { fg = "amber", modifiers = ["bold"] }
+"ui.virtual.ruler" = { bg = "stone01" }
+"ui.virtual.whitespace" = { fg = "stone03" }
+"ui.virtual.wrap" = { fg = "stone03" }
+"ui.window" = { fg = "stone03" }
+
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+"diagnostic.error" = { underline = { color = "coral", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "stone05", style = "curl" } }
+"diagnostic.info" = { underline = { color = "steel", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.warning" = { underline = { color = "amber", style = "curl" } }
+
+"error" = { fg = "coral" }
+"hint" = { fg = "stone05" }
+"info" = { fg = "steel" }
+"warning" = { fg = "amber" }
+
+"diff.delta" = { fg = "amber" }
+"diff.minus" = { fg = "coral" }
+"diff.plus" = { fg = "sage" }
+
+"markup.bold" = { modifiers = ["bold"] }
+"markup.heading" = { fg = "stone08", modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.text" = "steel"
+"markup.link.url" = { fg = "steel", modifiers = ["underlined"] }
+"markup.list" = "stone06"
+"markup.quote" = { fg = "stone05", modifiers = ["italic"] }
+"markup.raw" = "amber"
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+
+[palette]
+bg = "#1e1e1e"
+
+steel = "#8bafc8"
+slate = "#7da0b8"
+sage  = "#8db89a"
+amber = "#dba788"
+rose  = "#de9bc8"
+coral = "#ed9a9b"
+
+stone01 = "#242424"
+stone02 = "#2c2c2b"
+stone03 = "#353534"
+stone04 = "#484847"
+stone05 = "#626261"
+stone06 = "#7a7a79"
+stone07 = "#b8b8b7"
+stone08 = "#d0d0cf"
+
+special = "#e38e58"
